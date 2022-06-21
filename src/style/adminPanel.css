@@ -1,0 +1,143 @@
+#components-layout-demo-custom-trigger .trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: red;
+    transition: color 0.3s;
+
+  }
+  
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+   background: rgba(255, 255, 255, 0.3);
+    background: red;
+    transition: color 0.3s;
+
+  }
+  
+  .site-layout .site-layout-background {
+    background: #fff;
+    transition: color 0.3s;
+
+  }
+  .ant-layout-header {
+      margin: 20px 20px;
+      /* padding-left: 20px !important; */
+      padding-right: 20px !important;
+      border-radius: 10px;
+    transition: color 0.3s;
+
+  }
+  .ant-layout-content {
+    border-radius: 10px;
+    transition: color 0.3s;
+
+
+  } 
+  .ant-layout-sider {
+      background: #fff !important;
+  }
+  .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: transparent !important;
+    border-left: 5px solid #1890ff;
+}
+.background {
+    background-color: #f0f2f5;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.content-title {
+    margin: 24 16px 0px;
+    padding: 24px 24px 0;
+   
+}
+.content-title  h1 {
+  margin: 0 !important;
+}
+.layout-header {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.personal_info p{
+margin: 0 !important;
+font-family: Roboto, Helvetica, Arial, sans-serif;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.5;
+letter-spacing: 0.00938em;
+color: rgba(0, 0, 0, 0.6);
+}
+.personal_info span{
+  margin: 0px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  flex-shrink: 0;
+}
+
+.personal_info {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 12px;
+  /* margin: 5px 0; */
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+}
+
+.inline-block {
+  display: inline-block !important;
+}
+.background_login {
+  background: #1abc9c;
+}
+.wrapper_login {
+  width: 380px;
+  background: white;
+  border-radius: 5px;
+}
+.title_login {
+  line-height: 80px;
+  /* background: #16a085 !important; */
+  padding-left: 20px;
+  border-radius: 5px 5px 0 0;
+  font-size: 25px ;
+  font-weight: 600;
+  color: #fff;
+}
+.wrapper_login form {
+  padding: 30px 20px 25px 20px;
+}
+
+.wrapper_login form  .input {
+  height: 100% !important;
+  width: 100% !important;
+  height: 45px !important;
+  outline: none !important;
+  border: 1px solid lightgrey !important;
+  font-size: 16px !important;
+  border-radius: 5px !important;
+  /* margin-bottom: 15px !important; */
+}
+.wrapper_login form  button {
+  height: 100% !important;
+  width: 100% !important;
+  height: 45px !important;
+  color: #fff;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  background: #16a085 !important;
+  border: 1px solid #16a085 !important;
+}
+.wrapper_login form .input svg {
+  color: #16a085;
+}

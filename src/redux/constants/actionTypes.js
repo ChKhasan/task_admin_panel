@@ -1,0 +1,2 @@
+export const TAKE_SKILL_DATA = "TAKE_SKILL_DATA"
+export const SKILLS_LOADING = "SKILLS_LOADING"
