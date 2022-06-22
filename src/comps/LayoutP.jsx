@@ -17,9 +17,7 @@ const logOut = () => {
 const menu = (
   <Menu
     items={[
-      {
-        label: <Link to="/personal">Personal settings</Link>,
-      },
+   
       {
         label: <Button onClick={logOut}>Log out</Button>,
       },
