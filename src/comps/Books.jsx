@@ -35,7 +35,14 @@ const Books = () => {
       title: "Name",
       dataIndex: "name",
     },
-
+    {
+      title: "Description",
+      dataIndex: "description",
+    },
+    {
+      title: "Elektron",    
+      dataIndex: "ebookUrl",
+    },
     {
       title: "imgUrl",
       dataIndex: "imgUrl",
@@ -174,6 +181,24 @@ const Books = () => {
                 <Form.Item
                   name="name"
                   label="Name"
+                  rules={[
+                    { required: true, message: "Please input your Username!" },
+                  ]}
+                >
+                  <Input />
+                </Form.Item>
+                <Form.Item
+                  name="description"
+                  label="description"
+                  rules={[
+                    { required: true, message: "Please input your Username!" },
+                  ]}
+                >
+                  <Input />
+                </Form.Item>
+                <Form.Item
+                  name="ebookUrl"
+                  label="ebookUrl"
                   rules={[
                     { required: true, message: "Please input your Username!" },
                   ]}

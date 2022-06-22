@@ -107,12 +107,15 @@ color: rgba(0, 0, 0, 0.6);
 }
 .title_login {
   line-height: 80px;
-  /* background: #16a085 !important; */
+  color: #16a085 !important;
   padding-left: 20px;
   border-radius: 5px 5px 0 0;
-  font-size: 25px ;
+  font-size: 30px ;
   font-weight: 600;
-  color: #fff;
+}
+.admin_title {
+  color: #16a085 !important;
+
 }
 .wrapper_login form {
   padding: 30px 20px 25px 20px;

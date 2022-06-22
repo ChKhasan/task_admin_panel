@@ -25,7 +25,7 @@ const LoginP = () => {
     >
       <div className="wrapper_login">
         <div className="title_login">
-          <span>
+          <span className="admin_title">
             Admin login 
           </span>
         </div>
